@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout HTML dan CSS</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="biodatastyle.css">
+        <link rel="stylesheet" href="wisata.css">
+    </head>
+    <body>
+        <div class="header">
+          <p><font size="25"><b>HEADER</b></font></p>
+        </div>
+
+        <div class="topnav">
+            <a href="index.html">Biodata</a>
+            <a href="table.html">Table</a>
+            <a href="list.html">List</a>
+            <a href="sts.html">STS</a>
+        </div>
+        <!-- Bagian Content -->
+         <h2>Table Nilai Siswa</h2>
+    <!-- rowspan : menggabungkan baris
+        colspan : menggabungkan kolom -->
+    <table>
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Nama Siswa</th>
+            <th rowspan="2">Mata Pelajaran</th>
+            <th colspan="2">Nilai</th>
+        </tr>
+        <tr>
+            <th>Ulangan 1</th>
+            <th>Ulangan 2</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Chloe</td>
+            <td>Agama</td>
+            <td>80</td>
+            <td>92</td>
+        </tr>
+        <tr>
+                <td>2</td>
+                <td>Gwen</td>
+                <td>IPS</td>
+                <td>88</td>
+                <td>93</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rima</td>
+                <td>Bahasa Indonesia</td>
+                <td>92</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Agnes</td>
+                <td>IPA</td>
+                <td>85</td>
+                <td>93</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Karina</td>
+                <td>PPKN</td>
+                <td>87</td>
+                <td>93</td>
+            </tr>
+
+    </table>
+    <h2>Table Marge</h2>
+    <table>
+        <tr>
+            <th rowspan="3">A</th>
+            <th rowspan="3">B</th>
+            <th colspan="2">C</th>
+            <th rowspan="3">D</th>
+            <th rowspan="4">E</th>
+            <th rowspan="2">N</th>
+            <th rowspan="6">H</th>
+        </tr>
+        <tr>
+            <th rowspan="1">F</th>
+            <th>G</th>
+        </tr>
+    </table>
+
+          <div class="footer">
+            <p>Ruth-93/37</p>
+        </div>
+    </body>
+</html>

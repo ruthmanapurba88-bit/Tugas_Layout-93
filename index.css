@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/* style pada header */
+.header{
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+/* style pada topnav */
+.topnav{
+    overflow: hidden;
+    background-color: pink;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: cornsilk;
+    color: brown;
+}
+.footer{
+    background-color: beige;
+    padding: 15px;
+    text-align: center;
+}
+/* style table */
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding: 5px;
+}
+th{
+    background-color: beige;
+}
+tr{
+    background-color: pink;
+}
+tr:nth-child(even){
+    background-color: honeydew;
+}
+tr:hover{
+    background-color:salmon;
+}
+
+/* Style pada List */
+/* ol{ 
+    list-style-type: lower-alpha;
+}
+ul{
+    list-style-type: square;
+}
+    */
+    ol {
+    background-color: #b8e2ff;
+    border: 3px solid #6cb8ff;
+    padding: 15px 30px;
+    margin: 10px;
+    list-style-position: inside;
+}
+
+ol li {
+    background-color: #c4ffb0;
+    margin: 6px 0;
+    padding: 6px 12px;
+    border: 2px solid #3fbf38;
+    text-align: justify;
+}
+
+ol li.stroberi {
+    background-color: #ff82a9;
+    border: 2px solid #ff4d94;
+    color: white;
+    font-weight: bold;
+}
